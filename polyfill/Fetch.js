@@ -1,4 +1,4 @@
-import RNFetchBlob from '../index.js'
+import {NativeModules: {RNFetchBlob}} from 'react-native';
 import Log from '../utils/log.js'
 import fs from '../fs'
 import unicode from '../utils/unicode'
